@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-05T12:46:05.342054Z",
+  "generated_at": "2026-05-05T17:04:08.023771Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 460,
+      "duration_ms": 534,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 379,
+      "duration_ms": 299,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 397,
-      "duration_ms": 11732,
+      "item_count": 345,
+      "duration_ms": 9203,
       "error": null
     },
     {
@@ -30,15 +30,15 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1157,
+      "duration_ms": 998,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3026,
-      "duration_ms": 2015,
+      "item_count": 3036,
+      "duration_ms": 1249,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 76,
-      "duration_ms": 464,
+      "duration_ms": 439,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 287,
+      "duration_ms": 261,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1316,
+      "duration_ms": 7272,
       "error": null
     },
     {
@@ -70,15 +70,15 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 421,
+      "duration_ms": 42,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 145,
-      "duration_ms": 562,
+      "item_count": 146,
+      "duration_ms": 319,
       "error": null
     },
     {
@@ -86,8 +86,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 1725,
-      "duration_ms": 2620,
+      "item_count": 1726,
+      "duration_ms": 2174,
       "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -102,9 +102,9 @@
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 6540,
-  "items_before_topic_filter": 5754,
-  "items_in_24h": 663,
+  "fetched_raw_items": 6500,
+  "items_before_topic_filter": 5709,
+  "items_in_24h": 698,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.opml",
@@ -124,7 +124,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 774,
-        "duration_ms": 378,
+        "duration_ms": 347,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -138,7 +138,7 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1506,
+        "duration_ms": 1128,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -151,8 +151,8 @@
         "feed_url": "https://openai.com/news/rss.xml",
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
-        "item_count": 931,
-        "duration_ms": 736,
+        "item_count": 932,
+        "duration_ms": 699,
         "error": null,
         "skipped": false,
         "skip_reason": null,
