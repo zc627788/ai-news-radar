@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-21T18:15:17.693191Z",
+  "generated_at": "2026-07-21T19:59:52.568964Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 429,
+      "duration_ms": 559,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Info Flow",
       "ok": true,
       "item_count": 354,
-      "duration_ms": 13999,
+      "duration_ms": 19915,
       "error": null
     },
     {
@@ -30,23 +30,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 412,
+      "duration_ms": 1150,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3047,
-      "duration_ms": 1391,
+      "item_count": 3048,
+      "duration_ms": 1473,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 64,
-      "duration_ms": 665,
+      "item_count": 70,
+      "duration_ms": 1018,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 287,
+      "duration_ms": 607,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1307,
+      "duration_ms": 1755,
       "error": null
     },
     {
@@ -70,29 +70,29 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 186,
+      "duration_ms": 468,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 130,
-      "duration_ms": 1480,
+      "item_count": 131,
+      "duration_ms": 1725,
       "error": null
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "ok": true,
-      "partial_failures": 0,
-      "item_count": 1891,
-      "duration_ms": 2435,
-      "error": null,
+      "partial_failures": 1,
+      "item_count": 850,
+      "duration_ms": 6968,
+      "error": "1 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
-      "ok_feed_count": 3,
-      "failed_feed_count": 0,
+      "ok_feed_count": 2,
+      "failed_feed_count": 1,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
     }
@@ -102,16 +102,18 @@
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 6657,
-  "items_before_topic_filter": 6279,
-  "items_in_24h": 735,
+  "fetched_raw_items": 5624,
+  "items_before_topic_filter": 6223,
+  "items_in_24h": 756,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.opml",
     "feed_total": 3,
     "effective_feed_total": 3,
-    "ok_feeds": 3,
-    "failed_feeds": [],
+    "ok_feeds": 2,
+    "failed_feeds": [
+      "https://openai.com/news/rss.xml"
+    ],
     "zero_item_feeds": [],
     "skipped_feeds": [],
     "replaced_feeds": [],
@@ -124,7 +126,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 830,
-        "duration_ms": 279,
+        "duration_ms": 375,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -138,7 +140,7 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1473,
+        "duration_ms": 1276,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -150,10 +152,10 @@
         "feed_title": "OpenAI News",
         "feed_url": "https://openai.com/news/rss.xml",
         "effective_feed_url": "https://openai.com/news/rss.xml",
-        "ok": true,
-        "item_count": 1041,
-        "duration_ms": 683,
-        "error": null,
+        "ok": false,
+        "item_count": 0,
+        "duration_ms": 5317,
+        "error": "500 Server Error: Internal Server Error for url: https://openai.com/news/rss.xml",
         "skipped": false,
         "skip_reason": null,
         "replaced": false
